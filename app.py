@@ -11,8 +11,8 @@ questions = [
 def ask_question(questions):
     for i in questions:
         answer = input(i.prompt +" ")
-        if answer == Question.answer:
-            print("Yes")
+        if answer == i.answer:
+            print("Yes That is right")
 
 ask_question(questions)
 
